@@ -65,7 +65,8 @@ barrido_S3      % calidad de onda: satura el núcleo → resultados_S3.xlsx
 barrido_S4      % sincrofasores: efecto sobre la concurrencia → resultados_S4.xlsx
 ```
 
-`barrido_S3` requiere `monitor_ceder_S3.slx` (segundo generador para los analizadores, atributo de tamaño por entidad y cola finita para medir pérdidas);
+`barrido_S3` requiere `monitor_ceder_S3.slx` (segundo generador para los analizadores, atributo de tamaño por entidad y cola finita para medir pérdidas).
+
 `barrido_S4` requiere `monitor_ceder_S4.slx` (generador de sincrofasores a 50 tramas/s). Ambos escriben sus resultados en sendos `.xlsx`.
 
 ### 2. Análisis de una captura de tráfico
