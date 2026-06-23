@@ -1,4 +1,0 @@
-* text=auto eol=lf
-*.m text eol=lf
-*.md text eol=lf
-*.slx binary
